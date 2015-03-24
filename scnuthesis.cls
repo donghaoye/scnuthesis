@@ -546,20 +546,20 @@
 }
 {\par\vspace{2em}\par}
 \renewtheoremstyle{nonumberplain}%
-{\item[\hspace*{2em} \theorem@headerfont ##1\ \theorem@separator]}%
-{\item[\hspace*{2em} \theorem@headerfont ##1\ (##3)\theorem@separator]}
+{\item[\theorem@headerfont ##1\ \theorem@separator]}%
+{\item[\theorem@headerfont ##1\ (##3)\theorem@separator]}
 \theoremstyle{nonumberplain}
 \theorembodyfont{\rmfamily}
 \theoremheaderfont{\sffamily}
 \theoremsymbol{\ensuremath{\blacksquare}}
-\theoremseparator{:\,}
+\theoremseparator{.\,}
 \newtheorem{proof}{证明}[chapter]
 \newtheorem{assumption}{假设}[chapter]
 \newtheorem{definition}{定义}[chapter]
 
 \renewtheoremstyle{plain}%
-{\item[\hspace*{2em} \theorem@headerfont ##1\ ##2\theorem@separator]}%
-{\item[\hspace*{2em} \theorem@headerfont ##1\ ##2\ (##3)\theorem@separator]}
+{\item[\theorem@headerfont ##1\ ##2\theorem@separator]}%
+{\item[\theorem@headerfont ##1\ ##2\ (##3)\theorem@separator]}
 \theoremstyle{plain}
 \theorembodyfont{\kai}
 \theoremheaderfont{\hei}
